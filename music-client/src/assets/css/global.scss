@@ -1,0 +1,57 @@
+@import "var.scss";
+
+// 上下左右居中
+@mixin layout($justify-content: flex-start, $align-items: stretch, $flex-direction: row, $flex-wrap: nowrap) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-direction: $flex-direction;
+  flex-wrap: $flex-wrap;
+}
+
+// 图标
+@mixin icon($size: 1.5em, $color: $color-black) {
+  width: $size;
+  height: $size;
+  font-size: $size;
+  color: $color;
+  fill: currentColor;
+  overflow: hidden;
+  position: relative;
+}
+
+/* 暗黑模式全局样式 */
+.dark {
+  // Element Plus 组件暗黑模式
+  --el-bg-color: #121212;
+  --el-text-color-primary: #e0e0e0;
+  --el-border-color-light: #333;
+  --el-fill-color-light: #1e1e1e;
+  --footer-bg-start: #303133;
+  --footer-bg-end: #121212;
+  // 自定义组件暗黑模式
+  .el-card {
+    background-color: #1e1e1e;
+    border-color: #333;
+  }
+  
+  .el-table {
+    --el-table-header-bg-color: #1e1e1e;
+    --el-table-tr-bg-color: #121212;
+    --el-table-border-color: #333;
+  }
+  
+  // 播放器组件暗黑模式
+  .play-bar, .current-play, .audio {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+    border-color: #333 !important;
+  }
+  
+  // 滚动条样式
+  ::-webkit-scrollbar-thumb {
+    background-color: #444;
+  }
+
+
+}

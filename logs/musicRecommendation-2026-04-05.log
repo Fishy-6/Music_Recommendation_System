@@ -1,0 +1,34 @@
+2026-04-05 17:14:04 INFO [com.example.music.MusicApplication]: Starting MusicApplication using Java 1.8.0_152 on LAPTOP-CODE with PID 5364 (C:\AAPersonal\Code\SpringBoot\Music_Recommendation_System\music-server\target\classes started by fish in C:\AAPersonal\Code\SpringBoot\Music_Recommendation_System)
+2026-04-05 17:14:04 INFO [com.example.music.MusicApplication]: The following profiles are active: dev
+2026-04-05 17:14:04 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05 17:14:04 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05 17:14:05 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2026-04-05 17:14:05 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-04-05 17:14:05 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'adminMapper' and 'com.example.music.mapper.AdminMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'bannerMapper' and 'com.example.music.mapper.BannerMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'collectMapper' and 'com.example.music.mapper.CollectMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'commentMapper' and 'com.example.music.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'consumerMapper' and 'com.example.music.mapper.ConsumerMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'listSongMapper' and 'com.example.music.mapper.ListSongMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'playHistoryMapper' and 'com.example.music.mapper.PlayHistoryMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'rankListMapper' and 'com.example.music.mapper.RankListMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'rankSongMapper' and 'com.example.music.mapper.RankSongMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'singerMapper' and 'com.example.music.mapper.SingerMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'songListMapper' and 'com.example.music.mapper.SongListMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'songMapper' and 'com.example.music.mapper.SongMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: Skipping MapperFactoryBean with name 'userSupportMapper' and 'com.example.music.mapper.UserSupportMapper' mapperInterface. Bean already defined with the same name!
+2026-04-05 17:14:05 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: No MyBatis mapper was found in '[com.example.music.mapper]' package. Please check your configuration.
+2026-04-05 17:14:07 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2026-04-05 17:14:07 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2343 ms
+2026-04-05 17:14:07 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2026-04-05 17:14:07 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2026-04-05 17:14:07 INFO [com.example.music.MusicApplication]: Started MusicApplication in 3.464 seconds (JVM running for 4.519)
+2026-04-05 17:15:18 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2026-04-05 17:15:18 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 3 ms
+2026-04-05 17:15:18 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET /api/config
+2026-04-05 17:15:18 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2026-04-05 17:15:18 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2026-04-05 17:57:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET /api/config
+2026-04-05 17:59:40 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET /api/config
+2026-04-05 18:00:55 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET /api/config
